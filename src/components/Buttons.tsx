@@ -1,7 +1,7 @@
 import { useState } from "react";
 import MyImage from "./MyImage";
 
-function MyButton() {
+function Buttons() {
   const [clickCount, setCount] = useState(0);
   const [imageSource, setImageSource] = useState(
     "https://source.unsplash.com/random/?grass"
@@ -41,4 +41,4 @@ function MyButton() {
   );
 }
 
-export default MyButton;
+export default Buttons;
